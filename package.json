@@ -1,0 +1,21 @@
+{
+  "name": "alpari-test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "author": "Egor Kopylov",
+  "repository": "",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "browserify": "5.9.1",
+    "jquery": "2.1.1",
+    "jquery.transit": "^0.9.12",
+    "jquery-ui": "1.10.5",
+    "backbone": "1.1.2"
+  }
+}
