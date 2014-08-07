@@ -1,5 +1,8 @@
 html, body {
 	height: 100%;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 body {
 	background: rgb(238,238,238);

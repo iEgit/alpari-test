@@ -1,10 +1,9 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({"/Users/koegit/Documents/Programming/projects/alpari-test/main.js":[function(require,module,exports){
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 var $ = require('jquery'),
 	Backbone = require('backbone')
 
 Backbone.$ = $;
 
-require('jquery-ui/draggable');
 require('jquery-ui/droppable');
 require('jquery-ui/sortable');
 require('jquery.transit');
@@ -107,7 +106,7 @@ function initView (index, el) {
 }
 
 $(onload);
-},{"backbone":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/backbone/backbone.js","jquery":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js","jquery-ui/draggable":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/draggable.js","jquery-ui/droppable":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/droppable.js","jquery-ui/sortable":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/sortable.js","jquery.transit":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery.transit/jquery.transit.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/backbone/backbone.js":[function(require,module,exports){
+},{"backbone":2,"jquery":11,"jquery-ui/droppable":6,"jquery-ui/sortable":8,"jquery.transit":10}],2:[function(require,module,exports){
 //     Backbone.js 1.1.2
 
 //     (c) 2010-2014 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -1717,7 +1716,7 @@ $(onload);
 
 }));
 
-},{"underscore":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/backbone/node_modules/underscore/underscore.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/backbone/node_modules/underscore/underscore.js":[function(require,module,exports){
+},{"underscore":3}],3:[function(require,module,exports){
 //     Underscore.js 1.6.0
 //     http://underscorejs.org
 //     (c) 2009-2014 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
@@ -3062,7 +3061,7 @@ $(onload);
   }
 }).call(this);
 
-},{}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/core.js":[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 var jQuery = require('jquery');
 
 /*!
@@ -3386,7 +3385,7 @@ $.extend( $.ui, {
 
 })( jQuery );
 
-},{"jquery":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/draggable.js":[function(require,module,exports){
+},{"jquery":11}],5:[function(require,module,exports){
 var jQuery = require('jquery');
 require('./core');
 require('./mouse');
@@ -4351,7 +4350,7 @@ $.ui.plugin.add("draggable", "zIndex", {
 
 })(jQuery);
 
-},{"./core":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/core.js","./mouse":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/mouse.js","./widget":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/widget.js","jquery":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/droppable.js":[function(require,module,exports){
+},{"./core":4,"./mouse":7,"./widget":9,"jquery":11}],6:[function(require,module,exports){
 var jQuery = require('jquery');
 require('./core');
 require('./widget');
@@ -4748,7 +4747,7 @@ $.ui.ddmanager = {
 
 })(jQuery);
 
-},{"./core":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/core.js","./draggable":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/draggable.js","./mouse":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/mouse.js","./widget":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/widget.js","jquery":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/mouse.js":[function(require,module,exports){
+},{"./core":4,"./draggable":5,"./mouse":7,"./widget":9,"jquery":11}],7:[function(require,module,exports){
 var jQuery = require('jquery');
 require('./widget');
 
@@ -4922,7 +4921,7 @@ $.widget("ui.mouse", {
 
 })(jQuery);
 
-},{"./widget":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/widget.js","jquery":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/sortable.js":[function(require,module,exports){
+},{"./widget":9,"jquery":11}],8:[function(require,module,exports){
 var jQuery = require('jquery');
 require('./core');
 require('./mouse');
@@ -6218,7 +6217,7 @@ $.widget("ui.sortable", $.ui.mouse, {
 
 })(jQuery);
 
-},{"./core":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/core.js","./mouse":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/mouse.js","./widget":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/widget.js","jquery":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery-ui/widget.js":[function(require,module,exports){
+},{"./core":4,"./mouse":7,"./widget":9,"jquery":11}],9:[function(require,module,exports){
 var jQuery = require('jquery');
 
 /*!
@@ -6743,7 +6742,7 @@ $.each( { show: "fadeIn", hide: "fadeOut" }, function( method, defaultEffect ) {
 
 })( jQuery );
 
-},{"jquery":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery.transit/jquery.transit.js":[function(require,module,exports){
+},{"jquery":11}],10:[function(require,module,exports){
 /*!
  * jQuery Transit - CSS3 transitions and transformations
  * (c) 2011-2014 Rico Sta. Cruz
@@ -7490,7 +7489,7 @@ $.each( { show: "fadeIn", hide: "fadeOut" }, function( method, defaultEffect ) {
   return $;
 }));
 
-},{"jquery":"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js"}],"/Users/koegit/Documents/Programming/projects/alpari-test/node_modules/jquery/dist/jquery.js":[function(require,module,exports){
+},{"jquery":11}],11:[function(require,module,exports){
 /*!
  * jQuery JavaScript Library v2.1.1
  * http://jquery.com/
@@ -16682,4 +16681,4 @@ return jQuery;
 
 }));
 
-},{}]},{},["/Users/koegit/Documents/Programming/projects/alpari-test/main.js"]);
+},{}]},{},[1]);

@@ -3,9 +3,6 @@
   "version": "0.0.0",
   "description": "",
   "main": "main.js",
-  "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install"
-  },
   "author": "Egor Kopylov",
   "repository": "",
   "engines": {
